@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <button id="toggleButton"><i id="iconos" class="fas fa-images"></i>  Ver vista galería de imágenes</button>
+    <!-- <i class="fas fa-sliders-h"></i> -->
+
+    <div id=sliderContainer class="image-slider">
+        <button id="prevButton" class="button-slider"><i class="fas fa-chevron-left"></i><!-- &lt; --></button>
+        <div class='image'>
+            <img class="img" src="img1.jpg">
+        </div>
+        <button id="nextButton" class="button-slider"><i class="fas fa-chevron-right"></i><!-- &gt; --></button>
+    </div>
+
+    <div id='galleryContainer' class="gallery-container">
+        <img src="img1.jpg">
+        <img src="img2.jpg">
+        <img src="img3.jpg">
+        <img src="img4.jpg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

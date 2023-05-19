@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+.img {
+    max-width: 99%;
+    max-height: 99%;
+}
+
+.image-slider {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.image-slider .image {
+    max-width: 99%;
+    max-height: 99%;
+    background-color: black;
+    height: 85vh;
+}
+
+.button-slider {
+    position: absolute;
+    height: 90vh;
+    font-size: 60px;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.button-slider:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#prevButton {
+    left: 0;
+}
+
+#nextButton {
+    right: 0;
+}
+
+.gallery-container {
+    display: none;
+}
+
+.gallery-container img {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+}
+
+#toggleButton {
+    position: relative;
+    left: 50%;
+    width: 400px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transform: translateX(-50%);
+}
+
+#toggleButton:hover {
+    background-color: #45a049;
+}
